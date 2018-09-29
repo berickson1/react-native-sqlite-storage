@@ -19,6 +19,7 @@
     "sqlite",
     "sqlite3",
     "ios",
+    "macos",
     "android",
     "promise",
     "cordova-sqlite-storage"
@@ -37,6 +38,9 @@
   },
   "rnpm": {
     "ios": {
+      "project": "src/ios/SQLite.xcodeproj"
+    },
+    "macos": {
       "project": "src/ios/SQLite.xcodeproj"
     }
   }
